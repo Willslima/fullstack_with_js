@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+    <script>
+        function validate() {
+            const validateUrl = new URLSearchParams(location.search)
+            let params = validateUrl.has('accesok')
+            if (params != true) {
+                window.location.href = "index.html"
+            }
+        }
+
+        validate()
+    </script>
+    <title>Seja bem vindo(a)</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <title>SLima Dev</title>
+    </head>
+
+    <body>
+
+        <header>
+            <section class="hero is-light is-fullheight">
+                <!-- Hero head: will stick at the top -->
+                <div class="hero-head">
+                    <header class="navbar">
+                        <div class="container">
+                            <div id="navbarMenuHeroC" class="navbar-menu">
+                                <div class="navbar-end">
+                                    <a href="./page.html?accesok" class="navbar-item is-active" >
+                                        Home
+                                    </a>
+                                    <a href="contact.html" class="navbar-item ">
+                                        Contato
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+                <div class="hero-body">
+                    <div class="container has-text-centered">
+
+                        <div class="columns">
+                            <div class="column"></div>
+                            <div class="column is-two-fifths">
+                                <div class="field ">
+                                    <label class="title">Seja bem vindo(a)</label>
+                                    <!-- <div class="control has-icons-left has-icons-right ">
+                                        
+                                        <input id="email" class="input is-dark" type="email"
+                                            placeholder="Digite o seu email">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="column"></div>
+                        </div>
+                        <div class="columns">
+                            <div class="column"></div>
+                            <div class="column is-two-fifths">
+                                <div class="field">
+                                    <div class="control has-icons-left has-icons-right">
+                                        <div class="box">
+                                            Esta página foi criada para aplicar os conceitos de redirecionamento de
+                                            páginas, validação e autenticação de login.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <script src="./index.js"> </script>
+    </body>
+
+    </html>
+
+</body>
+
+</html>
