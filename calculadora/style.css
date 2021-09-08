@@ -7,6 +7,10 @@
     display: flex;
 }
 
+#tela{
+    text-align: right;
+}
+
 #calculadora {
     margin: 75px auto;
     display: flex;
@@ -19,6 +23,7 @@
 
 .display {
     margin: 5px auto;
+
 }
 
 .display input{
@@ -32,6 +37,10 @@
     width: 85px;
     height: 65px;
     margin: 1px;
+}
+
+.botao:hover {
+    background-color: #778899;
 }
 
 .left{
