@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="calculadora">
+            <div class="display">
+                <input id="tela" type="text" readonly>
+            </div>
+
+                <button onclick="btnNumeros(0)" class="botao left">7
+                </button>
+
+                <button onclick="btnNumeros(1)" class="botao">8
+                </button>
+
+                <button onclick="btnNumeros(2)" class="botao">9
+                </button>
+
+                <button onclick="btnNumeros(3), dividir()"  class="botao">/
+                </button>
+
+                <button onclick="btnNumeros(4)"  class="botao left">4
+                </button>
+
+                <button onclick="btnNumeros(5)" class="botao">5
+                </button>
+
+                <button onclick="btnNumeros(6)" class="botao">6
+                </button>
+
+                <button onclick="btnNumeros(7), multiplicar()" class="botao">x
+                </button>
+
+                <button onclick="btnNumeros(8)" class="botao left">1
+                </button>
+
+                <button onclick="btnNumeros(9)" class="botao">2
+                </button>
+
+                <button onclick="btnNumeros(10)" class="botao">3
+                </button>
+
+                <button onclick="btnNumeros(11), subtrair()" class="botao">-
+                </button>
+
+                <button onclick="btnNumeros(12)" class="botao left">0
+                </button>
+
+                <button onclick="ponto(13)" class="botao">.
+                </button>
+
+                <button onclick="btnNumeros(14), limparDisplay()" class="botao">C
+                </button>
+
+                <button onclick="btnNumeros(15), somar()" class="botao">+
+                </button>
+
+                <button onclick="btnNumeros(16), resultado()" class="botao full-size">=
+                </button>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
